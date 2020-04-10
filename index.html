@@ -9,32 +9,88 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body style="background-color: #E9EcEf;">
 
-<div class="jumbotron text-center">
-  <h1>My First Bootstrap Page</h1>
-  <p>Resize this responsive page to see the effect!</p>
-</div>
+<!-- E9EcEf-->
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 3</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+  <div class="jumbotron mb-n5 pb-n5 mt-n3">
+    <h1 class="display-4 justify-content-center">Technocrats</h1>
+    <p class="lead">We are a bunch of technical consultants trying to share our technical experience in some of the niche industrial Technology knowledge which we have gained over the period of our time. Meet our bloggers and have a look at some amazing content they have for developers community.</p>
+     <hr class="my-4 br-n5">
+    <!--<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </p> -->
+  </div>
+
+
+  <div class="container mt-n5">
+    <div class="row mt-n5">
+      <div class="col-sm-4 mt-n3">
+        <img src="IMG/mihir.png" alt="Mihir" style="width:60%;">
+        <h3 class="ml-2 mt-2">Mihir Trivedi</h3>
+        <a class="btn btn-primary btn-lg ml-n4" href="hybris.html" role="button">SAP Hybris Developer</a>
+      </div>
+      <div class="col-sm-4 mt-n3">
+        <img src="IMG/sonani.png" alt="Sonani" style="width:50%;">
+        <h3 class="ml-2 mt-2">Sonani Yash</h3>
+        <a class="btn btn-primary btn-lg" href="#" role="button">AWS Developer</a>
+      </div>
+      <div class="col-sm-4 mt-n2">
+        <img src="IMG/icon_dev2.png" alt="Sonani" style="width:55%;">
+        <h3 class="ml-4 mt-2">Can be You</h3>
+
+        <button type="button" class="btn btn-primary btn-lg ml-4" data-toggle="modal" data-target="#myModal">
+    Contact Us
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Contact Us</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="recipient-name" class="col-form-label">Name:</label>
+              <input type="text" class="form-control" id="name" required >
+            </div>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Email ID:</label>
+            <input type="email" class="form-control" id="email" required >
+          </div>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Contact Number:</label>
+            <input type="text" class="form-control" id="contact">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Tell us about your work:</label>
+            <textarea class="form-control" id="message-text" placeholder="e.g. Block Chain, AI, Pyththon" required ></textarea>
+          </div>
+        </form>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Submit</button>
+        </div>
+
+      </div>
     </div>
   </div>
-</div>
+
+        <!-- <a class="btn btn-primary btn-lg ml-4" href="#" role="button">Contact Us</a> -->
+      </div>
+    </div>
+  </div>
+
 
 </body>
 </html>
